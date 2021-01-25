@@ -14,6 +14,7 @@ module.exports = {
     '@vue/airbnb',
     '@vue/typescript/recommended',
     'prettier',
+    'prettier/vue',
     'prettier/@typescript-eslint',
   ],
   rules: {
