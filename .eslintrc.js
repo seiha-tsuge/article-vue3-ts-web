@@ -13,6 +13,8 @@ module.exports = {
     'plugin:vue/vue3-recommended',
     '@vue/airbnb',
     '@vue/typescript/recommended',
+    'prettier',
+    'prettier/@typescript-eslint',
   ],
   rules: {
     'no-console': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
