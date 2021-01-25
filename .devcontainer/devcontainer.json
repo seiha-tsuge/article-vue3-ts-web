@@ -1,0 +1,21 @@
+{
+  "name": "article-vue3-ts-web",
+  "dockerComposeFile": ["../docker-compose.yml"],
+  "service": "web",
+  "workspaceFolder": "/app",
+  "settings": {
+    "editor.tabSize": 2,
+    "terminal.integrated.shell.linux": "/bin/ash",
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    }
+  },
+  "extensions": [
+    "octref.vetur",
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode"
+  ],
+  "forwardPorts": [8080]
+}
