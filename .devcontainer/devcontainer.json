@@ -15,7 +15,8 @@
   "extensions": [
     "octref.vetur",
     "dbaeumer.vscode-eslint",
-    "esbenp.prettier-vscode"
+    "esbenp.prettier-vscode",
+    "bradlc.vscode-tailwindcss"
   ],
   "forwardPorts": [8080]
 }
